@@ -17,6 +17,7 @@
 }
 .logo img{
     width: 100%;
+    cursor: pointer;
 }
 .navbar{
     width: 70%;
@@ -72,11 +73,17 @@ h1 span{
 }
 .item .image{
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .image img{
     width: 100%;
     margin-bottom: 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+.image img:hover{
+    transform: scale(1.2);
 }
 .desc{
     text-align: center;
@@ -135,9 +142,15 @@ h1 span{
 }
 .team .photo{
     margin-left: 20px;
+    overflow: hidden;
 }
 .photo img{
     margin-bottom: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.photo img:hover{
+    transform: scale(1.2);
 }
 .photo .text p{
     font-size: 20px;
