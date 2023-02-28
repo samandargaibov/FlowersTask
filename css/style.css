@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.header{
+    padding: 35px 15rem;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.header .logo{
+    float: left;
+    width: 15%;
+    margin-right: 5rem;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    margin-left: 3rem;
+    font-size: 13px;
+}
+.icons{
+    float: right;
+    width: 15%;
+    margin-left: 15px;
+    color: rgb(85, 85, 85);
+    font-size: 15px;
+}
+.icons i{
+    margin-right: 15px;
+}
+.first{
+    padding: 196px;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    width: 40%;
+}
+.text h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+h1 span{
+    color: red;
+}
+.text p{
+    font-size: 23px;
+    color: rgb(167, 165, 165);
+}
+.second{
+    padding: 9rem;
+    margin-left: 8rem;
+}
+.box .item{
+    width: 18%;
+    float: left;
+    margin-left: 3rem;
+}
+.item .image{
+    margin-bottom: 40px;
+}
+
+.image img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.desc{
+    text-align: center;
+    color: rgb(175, 177, 177);
+}
+.desc h6{
+    color: black;
+}
+.third{
+    padding: 8rem;
+    background-color: rgb(236, 236, 235);
+}
+.videos{
+    width: 85%;
+    margin: auto;
+}
+.videostext{
+    width: 43%;
+    float: right;
+}
+.videostext h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 200;
+}
+.videostext p{
+    font-size: 21px;
+    margin-bottom: 30px;
+    color: rgb(129, 129, 128);
+}
+.videostext h1 span{
+    color: red;
+}
+
+.fourth{
+    padding: 150px 8rem;
+    text-align: center;
+}
+.fourth h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.fourth p{
+    width: 43%;
+    margin: auto;
+    color: rgb(124, 124, 123);
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.team{
+    width: 18%;
+    float: left;
+    margin-left: 5rem;
+}
+.team .photo{
+    margin-left: 20px;
+}
+.photo img{
+    margin-bottom: 15px;
+}
+.photo .text p{
+    font-size: 20px;
+}
+.textphoto p{
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
